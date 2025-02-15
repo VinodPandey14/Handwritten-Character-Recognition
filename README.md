@@ -8,10 +8,9 @@ This project is a **handwritten character recognition web app** built using **Fl
 - **Top-2 Predictions with Probability**: Shows the best match and an alternative guess.
 - **Interactive UI**: Clear and Predict buttons, smooth drawing strokes.
 
-## 📸 Project Demo
-![Demo](https://your-image-link.com)  
-*(Upload an actual screenshot/gif of your UI here)*
-
----
-
-## 📂 Folder Structure
+## 🎯 Model Details
+- **Dataset Used:** [EMNIST Dataset](https://www.nist.gov/itl/products-and-services/emnist-dataset)  
+- **Classes:** 47 (Digits + Uppercase & Lowercase Letters)  
+- **Architecture:** Convolutional Neural Network (CNN)  
+- **Accuracy:** ~95%
+- **Frameworks:** TensorFlow, Keras
